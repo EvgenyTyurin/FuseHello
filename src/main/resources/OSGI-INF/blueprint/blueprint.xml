@@ -34,6 +34,7 @@
             <from id="_fileImport" uri="file:work/cbr/import"/>
             <log id="_log1" message="Imorting file"/>
             <bean beanType="evgenyt.fuse_hello.MyBean" id="_bean1" method="process"/>
+            <to id="_export" uri="file:work/cbr/export"/>
         </route>
     </camelContext>
 </blueprint>
